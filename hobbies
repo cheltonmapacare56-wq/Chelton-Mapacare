@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hobbies e interesses pessoais.">
+  <title>Hobbies | Meu CurrÃ­culo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container" aria-label="NavegaÃ§Ã£o principal">
+    <a class="logo" href="index.html">MEU<span>CV</span></a>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Sobre</a></li>
+      <li><a href="portfolio.html">Projetos</a></li>
+      <li><a class="active" href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <div class="container">
+      <p class="eyebrow">Interesses</p>
+      <h1>Hobbies e atividades</h1>
+      <p>Atividades que ajudam a desenvolver criatividade, disciplina e conhecimento.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <section class="hobbies-flex" aria-label="Lista de hobbies">
+      <article class="hobby-card"><img src="images/hobby-tecnologia.svg" width="300" height="220" alt="IlustraÃ§Ã£o de tecnologia e programaÃ§Ã£o"><h2>ProgramaÃ§Ã£o</h2><p>Explorar linguagens, criar pequenos sistemas e resolver desafios de lÃ³gica.</p></article>
+      <article class="hobby-card"><img src="images/hobby-jogos.svg" width="300" height="220" alt="IlustraÃ§Ã£o de jogos digitais"><h2>Jogos</h2><p>Jogos de estratÃ©gia e aÃ§Ã£o como forma de entretenimento e inspiraÃ§Ã£o tecnolÃ³gica.</p></article>
+      <article class="hobby-card"><img src="images/hobby-musica.svg" width="300" height="220" alt="IlustraÃ§Ã£o de mÃºsica e auscultadores"><h2>MÃºsica</h2><p>Ouvir mÃºsica para relaxar, concentrar e acompanhar momentos do dia.</p></article>
+      <article class="hobby-card"><img src="images/hobby-aprendizagem.svg" width="300" height="220" alt="IlustraÃ§Ã£o de aprendizagem e livros"><h2>Aprendizagem</h2><p>Pesquisar, estudar e descobrir ferramentas e conhecimentos novos.</p></article>
+    </section>
+  </section>
+
+  <section class="section container">
+    <details class="faq">
+      <summary>Por que os hobbies sÃ£o importantes?</summary>
+      <p>Os hobbies contribuem para equilÃ­brio pessoal, criatividade, disciplina e desenvolvimento de competÃªncias que podem ser Ãºteis nos estudos e na carreira.</p>
+    </details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <section class="container footer-grid">
+    <article><h2>Meu CurrÃ­culo</h2><p>PortfÃ³lio pessoal desenvolvido exclusivamente com HTML5 e CSS3.</p></article>
+    <address><strong>Contactos</strong><a href="mailto:cheltonmapacare56@gmail.com">cheltonmapacare56@gmail.com</a><a href="tel:+258875932714">+258 87 593 2714</a><a href="#">LinkedIn â€¢ GitHub</a></address>
+  </section>
+  <p class="copyright">Desenvolvido por Chelton Mapacare â€¢ 2026</p>
+</footer>
+</body>
+</html>
 
