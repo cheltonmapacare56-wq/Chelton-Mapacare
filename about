@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sobre, Chelton Gabriel Mapacare.">
+  <title>Sobre | Meu CurrÃ­culo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+<header class="site-header">
+  <nav class="nav container" aria-label="NavegaÃ§Ã£o principal">
+    <a class="logo" href="index.html">MEU<span>CV</span></a>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="about.html">Sobre</a></li>
+      <li><a href="portfolio.html">Projetos</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <div class="container">
+      <p class="eyebrow">CurrÃ­culo</p>
+      <h1>Sobre mim</h1>
+      <p>FormaÃ§Ã£o, competÃªncias e objetivos profissionais.</p>
+    </div>
+  </section>
+
+  <section class="section container two-columns">
+    <article class="content-card">
+      <h2>Perfil acadÃ©mico</h2>
+      <p>Sou estudante de Licenciatura em InformÃ¡tica, atualmente no 2.Âº ano. Tenho interesse em programaÃ§Ã£o, desenvolvimento de aplicaÃ§Ãµes, web e resoluÃ§Ã£o de problemas atravÃ©s da tecnologia.</p>
+      <h3>Objetivos</h3>
+      <ol>
+        <li>Aprofundar conhecimentos de programaÃ§Ã£o.</li>
+        <li>Desenvolver projetos prÃ¡ticos e funcionais.</li>
+        <li>Construir experiÃªncia profissional na Ã¡rea de TI.</li>
+        <li>Continuar a aprender novas tecnologias.</li>
+      </ol>
+    </article>
+
+    <aside class="content-card highlight">
+      <h2>CompetÃªncias</h2>
+      <ul class="check-list">
+        <li>HTML5 semÃ¢ntico</li>
+        <li>CSS3 responsivo</li>
+        <li>C e C++</li>
+        <li>LÃ³gica de programaÃ§Ã£o</li>
+        <li>Estruturas de dados</li>
+        <li>Git e organizaÃ§Ã£o de projetos</li>
+      </ul>
+    </aside>
+  </section>
+
+  <section class="section container">
+    <header class="section-heading">
+      <p class="eyebrow">Tecnologias</p>
+      <h2>NÃ­vel de proficiÃªncia</h2>
+    </header>
+    <div class="table-wrapper">
+      <table>
+        <caption>Resumo das principais competÃªncias tÃ©cnicas</caption>
+        <thead>
+          <tr><th>Tecnologia</th><th>NÃ­vel</th><th>Ãrea</th><th>PrÃ¡tica</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML5</td><td>IntermÃ©dio</td><td>Web</td><td>Projetos acadÃ©micos</td></tr>
+          <tr><td>CSS3</td><td>IntermÃ©dio</td><td>Web</td><td>Layouts responsivos</td></tr>
+          <tr><td>C++</td><td>IntermÃ©dio</td><td>ProgramaÃ§Ã£o</td><td>LaboratÃ³rio II</td></tr>
+          <tr><td>C</td><td>IntermÃ©dio</td><td>ProgramaÃ§Ã£o</td><td>ExercÃ­cios acadÃ©micos</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section container certificate-grid">
+    <figure class="content-card">
+      <img src="images/certificado.svg" width="800" height="500" alt="Modelo ilustrativo de certificado acadÃ©mico">
+      <figcaption>Certificado acadÃ©mico â€” substitua pelo seu certificado.</figcaption>
+    </figure>
+    <figure class="content-card">
+      <img src="images/certificado.svg" width="800" height="500" alt="Segundo modelo ilustrativo de certificado">
+      <figcaption>FormaÃ§Ã£o complementar â€” substitua pela sua imagem.</figcaption>
+    </figure>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <section class="container footer-grid">
+    <article><h2>Meu CurrÃ­culo</h2><p>PortfÃ³lio pessoal desenvolvido exclusivamente com HTML5 e CSS3.</p></article>
+    <address><strong>Contactos</strong><a href="mailto:cheltonmapacare56@gmail.com">cheltonmapacare56@gmail.com</a><a href="tel:+258875932714">+258 87 593 2714</a><a href="#">LinkedIn â€¢ GitHub</a></address>
+  </section>
+  <p class="copyright">Desenvolvido por Chelton Mapacare â€¢ 2026</p>
+</footer>
+</body>
+</html>
 
