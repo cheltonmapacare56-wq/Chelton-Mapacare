@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CurrÃ­culo pessoal e portfÃ³lio de estudante de InformÃ¡tica.">
+  <title>InÃ­cio | Meu CurrÃ­culo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container" aria-label="NavegaÃ§Ã£o principal">
+    <a class="logo" href="index.html">MEU<span>CV</span></a>
+    <ul class="nav-list">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">Sobre</a></li>
+      <li><a href="portfolio.html">Projetos</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <article class="hero-content">
+      <p class="eyebrow">OlÃ¡, sou estudante de InformÃ¡tica</p>
+      <h1>Transformo ideias em <span>soluÃ§Ãµes digitais.</span></h1>
+      <p class="lead">Sou estudante de Licenciatura em InformÃ¡tica, interessado em programaÃ§Ã£o, desenvolvimento web e criaÃ§Ã£o de soluÃ§Ãµes tecnolÃ³gicas.</p>
+      <nav class="hero-actions" aria-label="AÃ§Ãµes principais">
+        <a class="btn btn-primary" href="contact.html">Entrar em contacto</a>
+        <a class="btn btn-outline" href="portfolio.html">Ver projetos</a>
+      </nav>
+      <ul class="quick-stats" aria-label="Resumo">
+        <li><strong>2.Âº</strong><span>Ano de InformÃ¡tica</span></li>
+        <li><strong>C++</strong><span>LaboratÃ³rio II</span></li>
+        <li><strong>Web</strong><span>HTML + CSS</span></li>
+      </ul>
+    </article>
+
+    <figure class="profile-card">
+      <img src="images/perfil.svg" width="500" height="500" alt="Avatar ilustrativo do estudante de InformÃ¡tica">
+      <figcaption>Estudante â€¢ ProgramaÃ§Ã£o â€¢ Tecnologia</figcaption>
+    </figure>
+  </section>
+
+  <section class="section container">
+    <header class="section-heading">
+      <p class="eyebrow">MultimÃ©dia</p>
+      <h2>ConheÃ§a melhor o meu trabalho</h2>
+    </header>
+    <section class="media-grid">
+      <article class="media-card">
+        <h3>VÃ­deo de apresentaÃ§Ã£o</h3>
+        <video controls poster="images/video-poster.svg" width="640" height="360">
+          <source src="media/apresentacao.mp4" type="video/mp4">
+          O seu navegador nÃ£o suporta vÃ­deo HTML5.
+        </video>
+        <p>Substitua <strong>media/apresentacao.mp4</strong> pelo seu vÃ­deo curto.</p>
+      </article>
+      <article class="media-card">
+        <h3>ApresentaÃ§Ã£o em Ã¡udio</h3>
+        <audio controls>
+          <source src="media/apresentacao.mp3" type="audio/mpeg">
+          O seu navegador nÃ£o suporta Ã¡udio HTML5.
+        </audio>
+        <p>Substitua <strong>media/apresentacao.mp3</strong> pela sua gravaÃ§Ã£o.</p>
+      </article>
+    </section>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <section class="container footer-grid">
+    <article>
+      <h2>Meu CurrÃ­culo</h2>
+      <p>PortfÃ³lio pessoal desenvolvido exclusivamente com HTML5 e CSS3.</p>
+    </article>
+    <address>
+      <strong>Contactos</strong>
+      <a href="mailto:cheltonmapacare56@gmail.com">cheltonmapacare56@gmail.com</a>
+      <a href="tel:+258875932714">+258 87 593 2714</a>
+      <a href="#">LinkedIn â€¢ GitHub</a>
+    </address>
+  </section>
+  <p class="copyright">Desenvolvido por Chelton Mapacare â€¢ 2026</p>
+</footer>
+</body>
+</html>
 
