@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PortfÃ³lio de projetos acadÃ©micos e pessoais.">
+  <title>Projetos | Meu CurrÃ­culo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container" aria-label="NavegaÃ§Ã£o principal">
+    <a class="logo" href="index.html">MEU<span>CV</span></a>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Sobre</a></li>
+      <li><a class="active" href="portfolio.html">Projetos</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner">
+    <div class="container">
+      <p class="eyebrow">PortfÃ³lio</p>
+      <h1>Projetos e trabalhos</h1>
+      <p>Alguns exemplos de projetos acadÃ©micos e pessoais.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <section class="portfolio-grid" aria-label="Grelha de projetos">
+      <article class="project-card">
+        <figure><img src="images/projeto-web.svg" width="800" height="500" alt="Interface ilustrativa de um projeto web"><figcaption>Projeto Web</figcaption></figure>
+        <section><span class="tag">HTML + CSS</span><h2>Site de CurrÃ­culo</h2><p>Website pessoal responsivo com HTML5 semÃ¢ntico e CSS3 puro.</p><a href="index.html" class="text-link">Ver projeto â†’</a></section>
+      </article>
+      <article class="project-card">
+        <figure><img src="images/projeto-cpp.svg" width="800" height="500" alt="Interface ilustrativa de um sistema desenvolvido em C++"><figcaption>Sistema em C++</figcaption></figure>
+        <section><span class="tag">C++</span><h2>Sistema de Pedidos</h2><p>AplicaÃ§Ã£o acadÃ©mica para gestÃ£o de pedidos, quantidades, preÃ§os e cÃ¡lculo da conta.</p><a href="contact.html" class="text-link">Saber mais â†’</a></section>
+      </article>
+      <article class="project-card">
+        <figure><img src="images/projeto-banco.svg" width="800" height="500" alt="Interface ilustrativa de sistema bancÃ¡rio"><figcaption>Sistema BancÃ¡rio</figcaption></figure>
+        <section><span class="tag">C / C++</span><h2>Simulador BancÃ¡rio</h2><p>Programa de simulaÃ§Ã£o de contas, saldo, levantamentos e operaÃ§Ãµes bancÃ¡rias.</p><a href="contact.html" class="text-link">Saber mais â†’</a></section>
+      </article>
+      <article class="project-card">
+        <figure><img src="images/projeto-agenda.svg" width="800" height="500" alt="Interface ilustrativa de uma agenda acadÃ©mica"><figcaption>Agenda AcadÃ©mica</figcaption></figure>
+        <section><span class="tag">ProgramaÃ§Ã£o</span><h2>Agenda de Estudos</h2><p>Conceito de agenda para organizar tarefas, objetivos e lembretes acadÃ©micos.</p><a href="contact.html" class="text-link">Saber mais â†’</a></section>
+      </article>
+    </section>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <section class="container footer-grid">
+    <article><h2>Meu CurrÃ­culo</h2><p>PortfÃ³lio pessoal desenvolvido exclusivamente com HTML5 e CSS3.</p></article>
+    <address><strong>Contactos</strong><a href="mailto:cheltonmapacare56@gmail.com ">cheltonmapacare56@gmail.com</a><a href="tel:+258875932714">+258 87 593 2714</a><a href="#">LinkedIn â€¢ GitHub</a></address>
+  </section>
+  <p class="copyright">Desenvolvido por Nome Apelido â€¢ 2026</p>
+</footer>
+</body>
+</html>
 
